@@ -14,7 +14,7 @@ for dir in skills agents commands; do
     for f in "${src}"/*.md; do
         [ -f "$f" ] || continue
         ln -sf "$f" "${dst}/$(basename "$f")"
-        ((installed++))
+        ((installed++)) || true
     done
 done
 
