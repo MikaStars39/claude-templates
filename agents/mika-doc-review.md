@@ -1,5 +1,5 @@
 ---
-name: doc-review
+name: mika-doc-review
 description: Review and restructure project documentation for AI-agent-friendly consumption (CLAUDE.md, README.md, module docs)
 model: inherit
 color: purple

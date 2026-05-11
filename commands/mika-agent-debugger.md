@@ -4,7 +4,7 @@ Two-phase process: discover bugs with parallel agents, then adversarially verify
 
 ## Phase 1: Discovery
 
-**Determine scope** — ask via `AskUserQuestion`: full repo, specific directory, or recent changes? If user provides scope argument (e.g., `/agent-debugger src/`), use it directly.
+**Determine scope** — ask via `AskUserQuestion`: full repo, specific directory, or recent changes? If user provides scope argument (e.g., `/mika-agent-debugger src/`), use it directly.
 
 **Launch 3-4 parallel Explore agents**, each covering a different area of the codebase. Split by module boundaries or directory structure as appropriate for the project.
 

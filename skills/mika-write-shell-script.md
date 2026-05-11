@@ -1,5 +1,5 @@
 ---
-name: write-shell-script
+name: mika-write-shell-script
 description: Write or review a bash (.sh) script. TRIGGER when user asks to create, generate, write, or fix a shell script, or when you are about to produce a .sh file for any reason.
 user_invocable: true
 ---

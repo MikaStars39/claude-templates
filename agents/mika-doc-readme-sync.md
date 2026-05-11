@@ -1,6 +1,6 @@
 ---
-name: "doc-readme-sync"
-description: "Update or create README.md in a directory based on recent code changes. Documents design intent, pitfalls, and coupling — things code alone doesn't convey.\n\nExamples:\n\n- user: \"更新一下这个目录的README\"\n  assistant: \"I'll launch doc-readme-sync to update the README.\"\n  <launches doc-readme-sync agent>\n\n- user: \"这个目录还没有README\"\n  assistant: \"I'll use doc-readme-sync to create one.\"\n  <launches doc-readme-sync agent>\n\n- user: \"刚改完代码，文档要跟上\"\n  assistant: \"Let me launch doc-readme-sync to update the README with your changes.\"\n  <launches doc-readme-sync agent>"
+name: "mika-doc-readme-sync"
+description: "Update or create README.md in a directory based on recent code changes. Documents design intent, pitfalls, and coupling — things code alone doesn't convey.\n\nExamples:\n\n- user: \"更新一下这个目录的README\"\n  assistant: \"I'll launch mika-doc-readme-sync to update the README.\"\n  <launches mika-doc-readme-sync agent>\n\n- user: \"这个目录还没有README\"\n  assistant: \"I'll use mika-doc-readme-sync to create one.\"\n  <launches mika-doc-readme-sync agent>\n\n- user: \"刚改完代码，文档要跟上\"\n  assistant: \"Let me launch mika-doc-readme-sync to update the README with your changes.\"\n  <launches mika-doc-readme-sync agent>"
 model: inherit
 color: green
 memory: project

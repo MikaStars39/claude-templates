@@ -2,7 +2,7 @@ Fix stale code references in markdown docs — broken paths, renamed functions, 
 
 ## Steps
 
-1. Launch `doc-ref-audit` agent:
+1. Launch `mika-doc-ref-audit` agent:
 
    Prompt: "Scan all markdown files for stale code references (file paths, function names, CLI args, cross-links). Verify each against the codebase. Auto-fix high-confidence issues, flag the rest."
 

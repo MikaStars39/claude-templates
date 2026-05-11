@@ -1,12 +1,6 @@
----
-name: cmp
-description: "Auto commit-merge-push: classify all uncommitted changes by type (feat/doc/fix/refactor/perf/test/chore), commit each on its own branch, merge to main, and push."
-user_invocable: true
----
-
 # CMP — Auto Commit, Merge & Push
 
-You are executing the `/cmp` command. Your job is to take ALL uncommitted changes in the working tree, **classify them into granular commit groups**, commit each group on its own branch, merge all branches into main, and push.
+You are executing the `/mika-cmp` command. Your job is to take ALL uncommitted changes in the working tree, **classify them into granular commit groups**, commit each group on its own branch, merge all branches into main, and push.
 
 ## Procedure
 

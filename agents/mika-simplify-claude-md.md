@@ -1,5 +1,5 @@
 ---
-name: simplify-claude-md
+name: mika-simplify-claude-md
 description: Trim bloated .claude/agents and skills markdown files to ≤500 words each, removing noise so critical rules aren't lost.
 model: inherit
 color: orange

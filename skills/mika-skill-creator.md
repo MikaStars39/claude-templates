@@ -1,5 +1,5 @@
 ---
-name: skill-creator
+name: mika-skill-creator
 description: "Create, test, and iteratively improve Claude Code skills. Use when the user wants to create a skill from scratch, edit an existing skill, run test cases, benchmark performance, or optimize a skill's triggering description."
 user_invocable: true
 ---
@@ -86,7 +86,7 @@ Capture `total_tokens` and `duration_ms` from each task notification → save to
 3. **Analyze** — check for non-discriminating assertions, high-variance evals, time/token tradeoffs. See `agents/analyzer.md`.
 4. **Launch viewer**:
    ```bash
-   nohup python <skill-creator-path>/eval-viewer/generate_review.py \
+   nohup python <mika-skill-creator-path>/eval-viewer/generate_review.py \
      <workspace>/iteration-N \
      --skill-name "my-skill" \
      --benchmark <workspace>/iteration-N/benchmark.json \

@@ -1,6 +1,6 @@
 ---
-name: "bug-scanner"
-description: "Use this agent when the user wants to find bugs, issues, or potential problems in the codebase. This includes scanning for logic errors, race conditions, edge cases, anti-pattern violations, type mismatches, resource leaks, and other code defects.\n\nExamples:\n\n- user: \"帮我检查一下代码里有没有bug\"\n  assistant: \"Let me use the bug-scanner agent to systematically scan the codebase for bugs.\"\n  <launches bug-scanner agent>\n\n- user: \"最近改了一些代码，帮我review一下有没有问题\"\n  assistant: \"I'll launch the bug-scanner agent to review the recent changes and identify potential issues.\"\n  <launches bug-scanner agent>\n\n- user: \"扫一下代码质量\"\n  assistant: \"I'll use the bug-scanner agent to scan for code quality issues and bugs.\"\n  <launches bug-scanner agent>"
+name: "mika-bug-scanner"
+description: "Use this agent when the user wants to find bugs, issues, or potential problems in the codebase. This includes scanning for logic errors, race conditions, edge cases, anti-pattern violations, type mismatches, resource leaks, and other code defects.\n\nExamples:\n\n- user: \"帮我检查一下代码里有没有bug\"\n  assistant: \"Let me use the mika-bug-scanner agent to systematically scan the codebase for bugs.\"\n  <launches mika-bug-scanner agent>\n\n- user: \"最近改了一些代码，帮我review一下有没有问题\"\n  assistant: \"I'll launch the mika-bug-scanner agent to review the recent changes and identify potential issues.\"\n  <launches mika-bug-scanner agent>\n\n- user: \"扫一下代码质量\"\n  assistant: \"I'll use the mika-bug-scanner agent to scan for code quality issues and bugs.\"\n  <launches mika-bug-scanner agent>"
 model: inherit
 color: cyan
 memory: project

@@ -1,5 +1,5 @@
 ---
-name: doc-updating
+name: mika-doc-updating
 description: "Update or create README.md in directories affected by recent code changes. Documents what changed and why — the stuff code alone doesn't tell you."
 user_invocable: true
 ---
@@ -16,8 +16,8 @@ After code changes, update the README.md in affected directories to document wha
 
 ## How to Run
 
-- `/doc-updating` — auto-detect changed directories from git diff
-- `/doc-updating recipes/foo` — update README for a specific directory
+- `/mika-doc-updating` — auto-detect changed directories from git diff
+- `/mika-doc-updating recipes/foo` — update README for a specific directory
 
 ## What Goes in the README
 
@@ -32,4 +32,4 @@ Only things you **can't derive from reading the code**:
 
 ## What It Does NOT Do
 
-- Does NOT fix broken references in existing docs (use `/doc-gardening` for that)
+- Does NOT fix broken references in existing docs (use `/mika-doc-gardening` for that)
