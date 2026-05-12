@@ -1,3 +1,5 @@
+> **背景**：如果还不熟悉 cc-native 的设计哲学（每类 doc 该写什么 / 不该写什么、为什么），先 Read `~/.claude/skills/mika-cc-philosophy.md` 再继续。
+
 Update or create README.md in directories affected by recent code changes.
 
 ## Steps

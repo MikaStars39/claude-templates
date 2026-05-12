@@ -6,6 +6,8 @@ user_invocable: true
 
 # Doc Updating — Update READMEs After Code Changes
 
+> **背景**：如果还不熟悉 cc-native 的设计哲学（每类 doc 该写什么 / 不该写什么、为什么），先 Read `~/.claude/skills/mika-cc-philosophy.md` 再继续。
+
 After code changes, update the README.md in affected directories to document what changed and why.
 
 ## When to Use

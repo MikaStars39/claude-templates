@@ -1,6 +1,8 @@
 
 # CC Native Audit — Structural Health Check
 
+> **背景**：如果还不熟悉 cc-native 的设计哲学（每类 doc 该写什么 / 不该写什么、为什么），先 Read `~/.claude/skills/mika-cc-philosophy.md` 再继续。
+
 审 cc-native 结构是不是完整。和 `/mika-doc-gardening`（修内容漂移）互补，这个修结构漂移。
 
 ## When to Use

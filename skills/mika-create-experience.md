@@ -6,6 +6,8 @@ user_invocable: true
 
 # Create Experience — Capture What Was Just Learned
 
+> **背景**：如果还不熟悉 cc-native 的设计哲学（每类 doc 该写什么 / 不该写什么、为什么），先 Read `~/.claude/skills/mika-cc-philosophy.md` 再继续。
+
 把对话里刚解决的问题提炼成一份 experience 文档归档进 `docs/experience/`，方便后面 CC 看到同样症状时能直接定位。
 
 ## When to Use

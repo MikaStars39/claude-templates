@@ -92,6 +92,8 @@ CC 这套生态有两种入口：
 
 按用途分四档：**初始化** → **沉淀到 docs/** → **维护文档** → **代码 & Git 工作流**。前三档对应 cc-native repo 的生命周期，第四档是通用的开发辅助。
 
+> **元 skill**：`/mika-cc-philosophy` — 加载 cc-native 设计哲学（三大块、四子目录的分工、判断流程）。其他 docs-related skill 在执行前会按需引用它。在另一个 repo 第一次用这套 skill、或想搞清楚某个 doc 该写什么时，都可以主动跑一下。
+
 | 阶段 | Skill | 用途 |
 |------|-------|------|
 | **初始化** | `/mika-cc-init` | 一键搭 cc-native 骨架（`CLAUDE.md` + `docs/` 整套结构）。永远不覆盖已存在的文件，老 repo 改造也安全。 |

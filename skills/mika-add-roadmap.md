@@ -6,6 +6,8 @@ user_invocable: true
 
 # Add Roadmap — Capture Deferred Intent
 
+> **背景**：如果还不熟悉 cc-native 的设计哲学（每类 doc 该写什么 / 不该写什么、为什么），先 Read `~/.claude/skills/mika-cc-philosophy.md` 再继续。
+
 聊出一个想法但不打算现在做，用这个 skill 存进 `docs/roadmap/`。后面 CC 接到相关新任务时会先看这里，避免推翻已有的半成型方案。
 
 ## When to Use
